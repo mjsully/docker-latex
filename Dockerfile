@@ -1,5 +1,7 @@
 FROM ubuntu:22.04
 
+LABEL org.opencontainers.image.source=https://github.com/mjsully/docker-latex
+
 RUN apt update -y
 RUN apt upgrade -y
 RUN apt install -y wget curl 
